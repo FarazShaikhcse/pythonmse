@@ -11,7 +11,7 @@ the index of the smallest element, and displays the index.
 def indexOfSmallestElement(lst):
     return lst.index(min(lst))
 l=[]
-n=int(input("Enter n")) 
+n=int(input("Enter n:")) 
 for i in range(n):
-    l.append(input("Enter a number"))
+    l.append(input("Enter a number:"))
 print("Index of smallest number is ",indexOfSmallestElement(l))
