@@ -21,6 +21,6 @@ def printMatrix(n):
             print(randint(0,1),end=" ")
         print()  
 
-n=int(input("Enter n")) 
+n=int(input("Enter n:")) 
 print("The random matrix is")       
 printMatrix(n)          
